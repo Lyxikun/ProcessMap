@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T06:49:24.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="MFe-l-igEc0CXbuZ3sEt" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-03T06:53:04.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="XOQDyhp6iYPUsFzShmlb" version="15.0.6" type="github">
   <diagram id="MeNyLUOsq98j4o0F66RF" name="Page-1">
-    <mxGraphModel dx="593" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,6 +95,45 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="400" as="sourcePoint" />
             <mxPoint x="560" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0onKD6nU7oJDjAOWuUWK-29" value="标定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="385" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0onKD6nU7oJDjAOWuUWK-30" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0onKD6nU7oJDjAOWuUWK-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="340" />
+              <mxPoint x="450" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0onKD6nU7oJDjAOWuUWK-31" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0onKD6nU7oJDjAOWuUWK-32" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0onKD6nU7oJDjAOWuUWK-33" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0onKD6nU7oJDjAOWuUWK-34" value="寻找颜色&lt;br&gt;按顺序发送颜色坐标给下位机" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0onKD6nU7oJDjAOWuUWK-35" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0onKD6nU7oJDjAOWuUWK-34" target="0onKD6nU7oJDjAOWuUWK-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="570" />
+              <mxPoint x="560" y="570" />
+              <mxPoint x="560" y="460" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
